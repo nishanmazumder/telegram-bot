@@ -5,7 +5,7 @@
 $input = file_get_contents("php://input");
 $data = json_decode($input); 
 $chat_id = $data->message->chat->id;
-$text = $data->date->text;
+$text = $data->message->text;
 
 
 $token = "2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0";
