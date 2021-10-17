@@ -3,7 +3,17 @@
 include_once './db.php';
 $db = new Connect;
 
-//$bot = https://t.me/bdsofcr_bot
+// $bot = https://t.me/bdsoftcr_candidate_marks_bot
+// $token = 2032409974:AAHNbmvr8Hre1TRvBrQ6xVADjM3oHrz1cIA
+
+// Set Web hook info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/setWebhook?url=https://telebot.bdsoftcreation.com/index.php
+
+// Get Web Hool info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/getWebhookInfo
+
+// Delete Webhook info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/deleteWebhook
 
 //Get message info
 $input = file_get_contents("php://input");
@@ -43,7 +53,7 @@ if ($text == "/start") {
     }
 }
 
-$token = "2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0";
+$token = "2032409974:AAHNbmvr8Hre1TRvBrQ6xVADjM3oHrz1cIA";
 $send_msg = "https://api.telegram.org/bot$token/sendMessage?chat_id=$chat_id&text=$msg&parse_mode=HTML";
 
 file_get_contents($send_msg);

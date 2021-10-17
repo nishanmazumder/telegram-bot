@@ -1,7 +1,5 @@
 <?php
 
-//$hook = "https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/setWebhook?url=http://telebot.bdsoftcreation.com/index.php"
-
 $input = file_get_contents("php://input");
 $data = json_decode($input); 
 $chat_id = $data->message->chat->id;
