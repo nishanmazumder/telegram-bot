@@ -1,5 +1,16 @@
 <?php
+include_once './token.php';
 
+// Set Web hook info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/setWebhook?url=https://telebot.bdsoftcreation.com/index.php
+
+// Get Web Hool info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/getWebhookInfo
+
+// Delete Webhook info
+// https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/deleteWebhook
+
+// CURL
 // $ch = curl_init();
 
 // $url = "http://telebot.bdsoftcreation.com/index.php";
@@ -20,7 +31,7 @@
 
 if(isset($_POST['submit'])){
 
-$token = "2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0";
+$token = TOKEN_CANDIDATE;
 $text = $_POST['msg'];
 
 $chat_id = 2037102579;
