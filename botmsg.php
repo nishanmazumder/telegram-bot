@@ -1,5 +1,9 @@
 <?php
 
+// $bot = https://t.me/bdsofcr_bot
+// $token = 2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0
+
+
 $input = file_get_contents("php://input");
 $data = json_decode($input); 
 $chat_id = $data->message->chat->id;

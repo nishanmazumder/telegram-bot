@@ -4,7 +4,7 @@ include_once './token.php';
 // Set Web hook info
 // https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/setWebhook?url=https://telebot.bdsoftcreation.com/index.php
 
-// Get Web Hool info
+// Get Web Hook info
 // https://api.telegram.org/bot2026548842:AAE52wMvxNWqqFPpA9OnyJKo2YVnBxiYvm0/getWebhookInfo
 
 // Delete Webhook info
